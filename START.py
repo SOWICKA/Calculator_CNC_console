@@ -22,11 +22,11 @@ def start_program():
     language_choice = get_user_choice()
 
     if language_choice == 1:
-        import PL_Calculator_CNC_console as bmi_script
+        import PL_Calculator_CNC_console as Calculator_CNC_script 
     elif language_choice == 2:
-        import EN_Calculator_CNC_console as bmi_script
+        import EN_Calculator_CNC_console as Calculator_CNC_script
     elif language_choice == 3:
-        import DE_Calculator_CNC_console as bmi_script
+        import DE_Calculator_CNC_console as Calculator_CNC_script
     else:
         print("Invalid choice. Exiting.")
         return
